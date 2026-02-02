@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url === '/brandon') {
     log('Endpoint /brandon llamado');
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hola Intraway');
+    res.end('Hello World');
 
   } else {
     log('Endpoint desconocido: ' + req.url);
